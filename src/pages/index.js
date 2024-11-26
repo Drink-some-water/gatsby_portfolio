@@ -12,7 +12,7 @@ const IndexPage = () => {
         <p>resume</p>
         <a href="https://www.linkedin.com/in/sean-collins-4a6279252/" target="_blank">LinkedIn</a>
         <a href="https://github.com/Drink-some-water" target="_blank">GitHub</a>
-        <a href="mailto:sean.collins.developer@gmail.com" target="_blank">Contact Me</a>
+        <a href="mailto:sean.collins.developer@gmail.com" target="_blank">Email</a>
       </nav>
       <StaticImage
         alt="A picture of Sean Collins looking professional at home"
