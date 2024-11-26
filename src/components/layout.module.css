@@ -43,3 +43,14 @@ a {
     text-decoration: none;
     color: gray;
 }
+
+.invertIcon{
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+}
+
+.personalLinks{
+    display: flex;
+    gap: 2rem;
+}
