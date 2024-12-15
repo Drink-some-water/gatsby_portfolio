@@ -1,0 +1,37 @@
+.imageCircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.invertIcon{
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+}
+
+.personalLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-top: 4rem;
+    padding-right: 12rem;
+}
+
+.titleBox{
+
+}
+
+.portraitBox{
+
+}
+
+.downloadButton{
+
+}
