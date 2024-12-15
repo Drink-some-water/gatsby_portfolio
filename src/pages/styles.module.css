@@ -9,7 +9,11 @@
     filter: invert(1);
     width: 40px;
     height: 40px;
+    opacity: 0.7;
+    transition: 0.3s;
 }
+
+.invertIcon:hover{opacity: 1;}
 
 .personalLinks{
     display: flex;
@@ -32,6 +36,29 @@
 
 }
 
-.downloadButton{
+.title{
+    font-size: 55px;
+    margin: 0;
+}
 
+.downloadButton{
+    background-color: rgb(28, 29, 37);
+    color:  white;
+    border-image: url("../images/buttonbackground1.webp")120;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+    margin-top: 4px;
+    font-size: medium;
+    padding: 5px;
+    display: inline-block;
+}
+
+.downloadButton:hover{ opacity: 1;}
+
+.invertIcon2{
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }

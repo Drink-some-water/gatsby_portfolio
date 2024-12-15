@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/homepage_layout'
-import { imageCircle, invertIcon, personalLinks, header, titleBox, portraitBox, downloadButton} from '../pages/styles.module.css'
+import { imageCircle, invertIcon, personalLinks, title, header, titleBox, portraitBox, downloadButton, invertIcon2} from '../pages/styles.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
@@ -8,11 +8,19 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <div className={header}>
         <div className={titleBox}>
-          <h2>Sean Collins' Portfolio</h2>
+          <h1 className={title}>Sean Collins' Portfolio</h1>
           <h3>Thanks for visiting!</h3>
           <nav className={personalLinks}>
-            <a href="/SeanCollinsResume.pdf" download className={downloadButton}>resume</a>
-            <a href="mailto:sean.collins.developer@gmail.com" target="_blank">
+            <a href="/SeanCollinsResume.pdf" download >
+              <button className={downloadButton}>
+                <StaticImage
+                  src="../images/resume.svg"
+                  className={invertIcon2}
+                />
+                Resume
+              </button>
+            </a>
+            <a href='#' onClick={() => window.open("mailto:sean.collins.developer@gmail.com")}>
               <StaticImage
                 src="../images/email.svg"
                 alt="Email"
