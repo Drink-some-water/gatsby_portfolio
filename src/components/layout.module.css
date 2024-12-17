@@ -22,14 +22,14 @@ a {
     color: aliceblue;
 }
 
-.navBar{
+.navBar {
     display: flex;
     margin-left: 100px;
     margin-top: 15px;
     gap: 2rem;
 }
 
-.navBar a{
+.navBar a {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -37,8 +37,10 @@ a {
     color: gray;
 }
 
-.link{transition: .3s;}
+.link {
+    transition: .3s;
+}
 
-.link:hover{
-    color:aliceblue
+.link:hover {
+    color: aliceblue
 }
